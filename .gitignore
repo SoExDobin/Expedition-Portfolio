@@ -1,0 +1,26 @@
+# This is a source reading portfolio; never add original game resources or builds.
+[Bb]in/
+Resources/
+[Rr]esources/
+Assets/
+[Ee]ngineSDK/
+.vs/
+vcpkg_installed/
+*.fbx
+*.blend
+*.dds
+*.png
+*.jpg
+*.mp4
+*.wav
+*.ogg
+*.bank
+*.binarymodel
+*.binaryanimation
+*.dll
+*.lib
+*.exe
+*.pdb
+*.zip
+*.7z
+.env*

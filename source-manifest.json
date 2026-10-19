@@ -1,0 +1,796 @@
+{
+  "snapshot": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+  "selection": "Git blame at the snapshot: SoExDobin only. Attribution evidence is not a legal authorship determination. No source Git history or resources included.",
+  "files": [
+    {
+      "file": "code/04-map-integration/Client/Private/MapAdapter.excerpt.cpp",
+      "sourcePath": "Client/Private/MapAdapter.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "d4190a3e3141b7c428e5101724f9d8fbb78478c8",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 709,
+          "end": 721,
+          "kind": "function",
+          "symbol": "MapAdapter::ResolveMapModelPath"
+        },
+        {
+          "start": 759,
+          "end": 792,
+          "kind": "function",
+          "symbol": "MapAdapter::AppendModelOverrides"
+        },
+        {
+          "start": 794,
+          "end": 812,
+          "kind": "function",
+          "symbol": "MapAdapter::TryAppendModelOverridesFromJsonFile"
+        },
+        {
+          "start": 814,
+          "end": 820,
+          "kind": "function",
+          "symbol": "MapAdapter::AppendModelOverridesFromMaterialMapName"
+        },
+        {
+          "start": 822,
+          "end": 848,
+          "kind": "function",
+          "symbol": "MapAdapter::AppendModelOverridesFromMaterialDirectory"
+        },
+        {
+          "start": 850,
+          "end": 867,
+          "kind": "function",
+          "symbol": "MapAdapter::BuildMaterialApplyDesc"
+        },
+        {
+          "start": 869,
+          "end": 882,
+          "kind": "function",
+          "symbol": "MapAdapter::ApplyMaterial"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "f5fe912589cfe45dc67afe9e359ad02b8271a0f78cb4578fabba0b1f6e8ba410"
+    },
+    {
+      "file": "code/04-map-integration/Client/Private/MapCollisionAdapter.cpp",
+      "sourcePath": "Client/Private/MapCollisionAdapter.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "e95470784d267020c4cee29ef9d941cce9be3368",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 381,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "c51cbcb0ae6b2c52c4cd97813aede061fdb9f507d655432c8517aebef60a136d"
+    },
+    {
+      "file": "code/04-map-integration/Client/Private/MapLoader.excerpt.cpp",
+      "sourcePath": "Client/Private/MapLoader.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "e43efe08c31fffb5b884e6b14eae04a170969202",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 27,
+          "end": 38,
+          "kind": "function",
+          "symbol": "MapLoader::MakeCollisionRuntimeContext"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "2a8bcb451e614367cb633edb795e803ea22238abcad0d2b4932add6357ed29c1"
+    },
+    {
+      "file": "code/02-character-world/Client/Private/Player_ParkourAction.excerpt.cpp",
+      "sourcePath": "Client/Private/Player_ParkourAction.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "88cc03c6b38c4ce28626d6c78f0f9bdb64b3835d",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 252,
+          "end": 258,
+          "kind": "function",
+          "symbol": "Player_ParkourAction::Build_ParkourRequest"
+        },
+        {
+          "start": 383,
+          "end": 392,
+          "kind": "function",
+          "symbol": "Player_ParkourAction::Is_EnvironmentHit"
+        },
+        {
+          "start": 394,
+          "end": 407,
+          "kind": "function",
+          "symbol": "Player_ParkourAction::Try_PrepareAction"
+        },
+        {
+          "start": 414,
+          "end": 425,
+          "kind": "function",
+          "symbol": "Player_ParkourAction::Create"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "e40a854a9ecdaebb3350a382e3fbc33f0792ba14855b5f956e5c5432dd3e5774"
+    },
+    {
+      "file": "code/02-character-world/Client/Private/Player_RopeAction.cpp",
+      "sourcePath": "Client/Private/Player_RopeAction.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "dfe47c274fe177df8b89422f7f2baa581b9f1eb5",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 467,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "22e46106d478d89fd74443c1456b6f7b8d64ecf60f625e18dc353b698d80f0b1"
+    },
+    {
+      "file": "code/04-map-integration/Client/Public/MapCollisionAdapter.h",
+      "sourcePath": "Client/Public/MapCollisionAdapter.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "f4e292f8ff18d479a32e26e19186dbfcef11bac5",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 60,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "4b94d7be4a4fd9b71863bad36821ac4a8851dc2c484cb27e4b4073b616922930"
+    },
+    {
+      "file": "code/02-character-world/Client/Public/Player_ParkourAction.h",
+      "sourcePath": "Client/Public/Player_ParkourAction.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "5284070640be09c55f3493865856fbf4e8b08de3",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 70,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "6b6792ae1700be274fde83cb632e63831fa45d0e539a8a3309ac07d8fcb383ed"
+    },
+    {
+      "file": "code/02-character-world/Client/Public/Player_RopeAction.h",
+      "sourcePath": "Client/Public/Player_RopeAction.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "84ecee8541099beac206efeb70b95fbd34d5d7ef",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 70,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "005b72b303a4acb682f9bf604f600ea174ffe8ee75ffb50b7b253abc241b950b"
+    },
+    {
+      "file": "code/02-character-world/Engine/Private/AnimState_Parser.excerpt.cpp",
+      "sourcePath": "Engine/Private/AnimState_Parser.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "73553f41724581db1f531fb9cbc7543b138dfda9",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 253,
+          "end": 291,
+          "kind": "function",
+          "symbol": "AnimState_Parser::Save_StateAnimations_ToFile"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "32366920de69734c41ef757357f0d2b2842b546cb031036cb6aebdcfcfdb0696"
+    },
+    {
+      "file": "code/03-animation-modifier/Engine/Private/AnimationModifier.cpp",
+      "sourcePath": "Engine/Private/AnimationModifier.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "dc087f87aadb5174dfe5cb92e5d0e425f6702115",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 24,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "07cf1a1d26859e22c6a358ccc65535816535fa44fef29a291c13cfb22bc619f1"
+    },
+    {
+      "file": "code/03-animation-modifier/Engine/Private/ChainModifier.cpp",
+      "sourcePath": "Engine/Private/ChainModifier.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "68862f8ddc6c9b046cb3c5727236509ff97156d6",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 1742,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "edc27274e372af7d854bb4a521f98f79567e51f774d61e44f42d8b8f762f5869"
+    },
+    {
+      "file": "code/03-animation-modifier/Engine/Private/PhysicsModifier.excerpt.cpp",
+      "sourcePath": "Engine/Private/PhysicsModifier.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "1be7e4e053bc060062a18cd4b9edf59b74b746de",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 400,
+          "end": 407,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Compute_NodeAngleLimitDegree"
+        },
+        {
+          "start": 424,
+          "end": 430,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Create"
+        },
+        {
+          "start": 432,
+          "end": 450,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Initialize"
+        },
+        {
+          "start": 452,
+          "end": 462,
+          "kind": "function",
+          "symbol": "PhysicsModifier::On_ActiveChanged"
+        },
+        {
+          "start": 464,
+          "end": 571,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Evaluate_Modifier"
+        },
+        {
+          "start": 579,
+          "end": 592,
+          "kind": "function",
+          "symbol": "PhysicsModifier::RuntimeRebuild"
+        },
+        {
+          "start": 594,
+          "end": 600,
+          "kind": "function",
+          "symbol": "PhysicsModifier::RuntimeResetPose"
+        },
+        {
+          "start": 602,
+          "end": 630,
+          "kind": "function",
+          "symbol": "PhysicsModifier::ResetPose"
+        },
+        {
+          "start": 632,
+          "end": 646,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Restore_PoseLocals"
+        },
+        {
+          "start": 649,
+          "end": 680,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_WindForce"
+        },
+        {
+          "start": 682,
+          "end": 727,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Release_PhysXResources"
+        },
+        {
+          "start": 729,
+          "end": 776,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Initialize_Chains"
+        },
+        {
+          "start": 778,
+          "end": 812,
+          "kind": "function",
+          "symbol": "PhysicsModifier::BuildChainRecursive"
+        },
+        {
+          "start": 814,
+          "end": 893,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Capture_CurrentPose"
+        },
+        {
+          "start": 895,
+          "end": 1104,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Ensure_PhysXResources"
+        },
+        {
+          "start": 1214,
+          "end": 1255,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Sync_KinematicActors"
+        },
+        {
+          "start": 1257,
+          "end": 1314,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_AnchorFrameAdvection"
+        },
+        {
+          "start": 1316,
+          "end": 1333,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Update_SolvedPositionsFromActors"
+        },
+        {
+          "start": 1335,
+          "end": 1567,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_OwnerInertiaForce"
+        },
+        {
+          "start": 1569,
+          "end": 1647,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_PoseSpringForces"
+        },
+        {
+          "start": 1649,
+          "end": 1742,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_LengthAndBendConstraints"
+        },
+        {
+          "start": 1744,
+          "end": 2089,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_PostSimulationConstraints"
+        },
+        {
+          "start": 2091,
+          "end": 2214,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_PoseRestoreAndDamping"
+        },
+        {
+          "start": 2216,
+          "end": 2360,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Apply_LocalOffsetConstraints"
+        },
+        {
+          "start": 2362,
+          "end": 2695,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Write_BackToModel"
+        },
+        {
+          "start": 2697,
+          "end": 2823,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Trace_BoneMotion"
+        },
+        {
+          "start": 2825,
+          "end": 2885,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Build_WorldCapsules"
+        },
+        {
+          "start": 2887,
+          "end": 2975,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Build_DebugOutput"
+        },
+        {
+          "start": 2977,
+          "end": 3000,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Validate_RootAlignment"
+        },
+        {
+          "start": 3002,
+          "end": 3092,
+          "kind": "function",
+          "symbol": "PhysicsModifier::Get_RuntimeReflectionInfo"
+        },
+        {
+          "start": 3094,
+          "end": 3100,
+          "kind": "function",
+          "symbol": "PhysicsModifier::On_RuntimeReflectionChanged"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "ef9eeb533623c15b1a1933e46406885b21fca36a4fe1cce9cb228da1a975b3e2"
+    },
+    {
+      "file": "code/05-screen-fx/Engine/Private/ScreenFx_Instance.excerpt.cpp",
+      "sourcePath": "Engine/Private/ScreenFx_Instance.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "c8d2492bfea63ae75ee4a661d75a00664b065432",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 45,
+          "end": 50,
+          "kind": "function",
+          "symbol": "ScreenFx_Instance::Update_ScreenFx"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "ef72ab7175e1fbb86c5b3f7854077f18fabfe1ce27f0cd5540aff151b9b6c3db"
+    },
+    {
+      "file": "code/05-screen-fx/Engine/Private/ScreenFx_Manager.excerpt.cpp",
+      "sourcePath": "Engine/Private/ScreenFx_Manager.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "5750ff56a6709a914bec122df4291d18f7de9bb8",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 111,
+          "end": 117,
+          "kind": "function",
+          "symbol": "ScreenFx_Manager::Is_ScreenEffectFinished"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "6862d6c7fcb01b0382521cd3b5b155a127b0b604ef4455c9e9e6605ee7cf31b7"
+    },
+    {
+      "file": "code/03-animation-modifier/Engine/Public/AnimationModifier.h",
+      "sourcePath": "Engine/Public/AnimationModifier.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "5ce159108a07d3a5ca08ddc9c03579ad61178b03",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 68,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "bc1f6bda472b0abf05cd2f00efee294b92768add207a24737e6891e01423a82d"
+    },
+    {
+      "file": "code/03-animation-modifier/Engine/Public/ChainModifier.h",
+      "sourcePath": "Engine/Public/ChainModifier.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "241e9178755438fb48eab3c79d4383c86f0c4324",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 216,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "3190695fa99f880485bdf104dd5ec5ee4038f2c9cb05a28455155b04de450e8c"
+    },
+    {
+      "file": "code/03-animation-modifier/Engine/Public/PhysicsModifier.h",
+      "sourcePath": "Engine/Public/PhysicsModifier.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "6abe7313ff238188fb9c0d73b352d43810a8cad2",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 310,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "032bad2776077d66c89340580c93efe47f7df59df34f925122a9b944e98f4ee3"
+    },
+    {
+      "file": "code/05-screen-fx/Engine/Public/ScreenFx_Instance.h",
+      "sourcePath": "Engine/Public/ScreenFx_Instance.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "ff9f0c9de187fbde9acaaacad698a076cd6c0963",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 61,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "1800e593a5d022fd5ed88019e4a2bd7174d849e9cf13ecddea35630d9e50ab9a"
+    },
+    {
+      "file": "code/05-screen-fx/MainEditor/Private/ScreenFx_View.excerpt.cpp",
+      "sourcePath": "MainEditor/Private/ScreenFx_View.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "ef64ede674a101e94960fbcda319ce874790c740",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 18,
+          "end": 37,
+          "kind": "function",
+          "symbol": "ScreenFx_View::Update"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "1613d8dbdf453789bbdf4f4f0b0cdaa99620940802b096017ee8d4eb0a4f97ef"
+    },
+    {
+      "file": "code/05-screen-fx/MainEditor/Public/ScreenFx_View.h",
+      "sourcePath": "MainEditor/Public/ScreenFx_View.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "2acae756a20f87b3b02a6cfde7225702aecc856e",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 37,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "9a24a4d6f4ffd989cd2459b7aa71dbcc79778fc110dbf3d3baf922d889ef6f5a"
+    },
+    {
+      "file": "code/01-model-pipeline/ModelEditor/Private/ModelConverter.excerpt.cpp",
+      "sourcePath": "ModelEditor/Private/ModelConverter.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "17dac32f17226d5f7a579d17747ec2042aec0f68",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 103,
+          "end": 140,
+          "kind": "function",
+          "symbol": "ModelConverter::DragDropWndProc"
+        },
+        {
+          "start": 142,
+          "end": 202,
+          "kind": "function",
+          "symbol": "ModelConverter::Sanitize_FileName"
+        },
+        {
+          "start": 208,
+          "end": 219,
+          "kind": "function",
+          "symbol": "ModelConverter::~ModelConverter"
+        },
+        {
+          "start": 221,
+          "end": 246,
+          "kind": "function",
+          "symbol": "ModelConverter::Initialize"
+        },
+        {
+          "start": 252,
+          "end": 327,
+          "kind": "function",
+          "symbol": "ModelConverter::Render"
+        },
+        {
+          "start": 329,
+          "end": 373,
+          "kind": "function",
+          "symbol": "ModelConverter::Scan_FbxFiles"
+        },
+        {
+          "start": 375,
+          "end": 392,
+          "kind": "function",
+          "symbol": "ModelConverter::Extract_Selected"
+        },
+        {
+          "start": 394,
+          "end": 415,
+          "kind": "function",
+          "symbol": "ModelConverter::Extract_All"
+        },
+        {
+          "start": 551,
+          "end": 573,
+          "kind": "function",
+          "symbol": "ModelConverter::BuildBoneHierarchy"
+        },
+        {
+          "start": 575,
+          "end": 865,
+          "kind": "function",
+          "symbol": "ModelConverter::ReadMeshes"
+        },
+        {
+          "start": 867,
+          "end": 934,
+          "kind": "function",
+          "symbol": "ModelConverter::ReadMaterial"
+        },
+        {
+          "start": 1032,
+          "end": 1106,
+          "kind": "function",
+          "symbol": "ModelConverter::Export_ModelData"
+        },
+        {
+          "start": 1108,
+          "end": 1231,
+          "kind": "function",
+          "symbol": "ModelConverter::Export_AnimationData"
+        },
+        {
+          "start": 1233,
+          "end": 1332,
+          "kind": "function",
+          "symbol": "ModelConverter::Export_JsonLog"
+        },
+        {
+          "start": 1334,
+          "end": 1342,
+          "kind": "function",
+          "symbol": "ModelConverter::Convert_Matrix"
+        },
+        {
+          "start": 1344,
+          "end": 1362,
+          "kind": "function",
+          "symbol": "ModelConverter::Clear_Converter"
+        },
+        {
+          "start": 1370,
+          "end": 1376,
+          "kind": "function",
+          "symbol": "ModelConverter::Ensure_DirectoryExists"
+        },
+        {
+          "start": 1378,
+          "end": 1390,
+          "kind": "function",
+          "symbol": "ModelConverter::Create"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "709c941eed0af4bde7278f1cb04166bda134815d9424ef3ea4d89236a4ef880a"
+    },
+    {
+      "file": "code/01-model-pipeline/ModelEditor/Private/ModelViewerObject.excerpt.cpp",
+      "sourcePath": "ModelEditor/Private/ModelViewerObject.cpp",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "f2b9c44f2006dbfb6f54b2ea71cf8d5e07408ab4",
+      "mode": "selected-functions",
+      "ranges": [
+        {
+          "start": 39,
+          "end": 51,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Update"
+        },
+        {
+          "start": 53,
+          "end": 58,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Late_Update"
+        },
+        {
+          "start": 60,
+          "end": 71,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Render"
+        },
+        {
+          "start": 73,
+          "end": 119,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Render_Default"
+        },
+        {
+          "start": 121,
+          "end": 155,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Render_ComputeSkinned"
+        },
+        {
+          "start": 193,
+          "end": 201,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Play_Animation"
+        },
+        {
+          "start": 228,
+          "end": 246,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Ready_Components"
+        },
+        {
+          "start": 248,
+          "end": 263,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Ready_AnimComputeRuntime"
+        },
+        {
+          "start": 265,
+          "end": 276,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Bind_ShaderResources"
+        },
+        {
+          "start": 278,
+          "end": 289,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Create"
+        },
+        {
+          "start": 291,
+          "end": 302,
+          "kind": "function",
+          "symbol": "ModelViewerObject::Clone"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "270cd8e77ecced856c9e87ee6e12194d20c3062aee5662e674c25c2a63ca3d57"
+    },
+    {
+      "file": "code/01-model-pipeline/ModelEditor/Public/ModelConverter.h",
+      "sourcePath": "ModelEditor/Public/ModelConverter.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "e2ed9471ed2184a0dd9573f757cf79161c1481c1",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 96,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "3e7e822b1d86cc704539ededf95f4b8142077fbbeeb2783b50ab368e106cf114"
+    },
+    {
+      "file": "code/01-model-pipeline/ModelEditor/Public/ModelViewerObject.h",
+      "sourcePath": "ModelEditor/Public/ModelViewerObject.h",
+      "sourceCommit": "6af96f1b15b987af897bc12c479ee0544b3d425d",
+      "sourceBlob": "522cff9c435a2dfb2034371b4030d285ed31ac56",
+      "mode": "full-file",
+      "ranges": [
+        {
+          "start": 1,
+          "end": 68,
+          "kind": "full-file"
+        }
+      ],
+      "localPathRedactions": 0,
+      "sha256": "721c3ab79f0b61da7837a6c615ab7cdb0a2ea27247fc3606a0243310842c207a"
+    }
+  ]
+}
