@@ -1,26 +1,23 @@
-# This is a source reading portfolio; never add original game resources or builds.
-[Bb]in/
+# Resources, secrets and build outputs are not part of this source-reading portfolio.
 Resources/
 [Rr]esources/
 Assets/
-[Ee]ngineSDK/
 .vs/
-vcpkg_installed/
+EngineSDK/
+ThirdParty/
+*.sln
+*.vcxproj*
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
 *.fbx
-*.blend
 *.dds
 *.png
 *.jpg
-*.mp4
 *.wav
 *.ogg
-*.bank
-*.binarymodel
-*.binaryanimation
-*.dll
-*.lib
-*.exe
-*.pdb
+*.mp4
 *.zip
-*.7z
 .env*
